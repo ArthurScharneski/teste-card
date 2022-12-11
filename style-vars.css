@@ -1,0 +1,24 @@
+:root {
+  --key-white: rgb(238, 238, 238);
+  --key-black: #000;
+  /* background 01 */
+  --bg-01-a: #3e5151;
+  --bg-01-b: -webkit-linear-gradient(to right, #decba4, #3e5151);
+  --bg-01-c: linear-gradient(to right, #decba4, #3e5151);
+  /* background 02 */
+  --bg-02-a: #bdc3c7;
+  --bg-02-b: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  --bg-02-c: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* background 03 */
+  --bg-03-a: #3c3b3f;
+  --bg-03-b: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+  --bg-03-c: linear-gradient(to right, #605c3c, #3c3b3f);
+  /* background 04 */
+  --bg-04-a: #bdc3c7;
+  --bg-04-b: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+  --bg-04-c: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* background 05 */
+  --bg-05-a: #000000;
+  --bg-05-b: -webkit-linear-gradient(to top, #434343, #000000);
+  --bg-05-c: linear-gradient(to top, #434343, #000000);
+}

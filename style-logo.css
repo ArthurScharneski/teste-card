@@ -1,0 +1,37 @@
+svg {
+  width: 100%;
+  height: 100%;
+  font-family: myFont;
+  fill: black;
+
+  /* animation: title-fill 2s ease-out forwards; */
+  /* animation-delay: 5s; */
+}
+
+.txt-02 {
+  text-anchor: middle;
+  font-size: clamp(1rem, 10vw, 5rem);
+  letter-spacing: clamp(0.1rem, 2vw, 1.5rem);
+  stroke-dasharray: 2200px;
+  stroke-dashoffset: 2200px;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 1px;
+
+  /* animation: title-anim 10s ease-in-out forwards; */
+}
+
+@keyframes title-anim {
+  to {
+    stroke-dashoffset: 0;
+    stroke-width: 0px;
+  }
+}
+
+@keyframes title-fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: rgb(0, 0, 0);
+  }
+}
